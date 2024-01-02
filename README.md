@@ -2,6 +2,9 @@
 
 Example app that demonstrates how to run a Flask app with a free GPU using Google Colab and ngrok.
 
+![image](https://github.com/ParthaPRay/Flask-Stable-Diffusion-Model-ngrok/assets/1689639/dc6189b1-ee3d-4119-a183-6f68a9905fe4)
+
+
 
 
 ## Instructions
