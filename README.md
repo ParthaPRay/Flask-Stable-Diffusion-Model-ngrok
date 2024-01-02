@@ -6,8 +6,12 @@ Example app that demonstrates how to run a Flask app with a free GPU using Googl
 
 
 
+# Stable Diffusion Model Used
 
-## Instructions
+**runwayml/stable-diffusion-v1-5** with fp16
+
+
+# Instructions
 
 1. Open the Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ParthaPRay/Flask-Stable-Diffusion-Model-ngrok/blob/main/notebook.ipynb)
 
