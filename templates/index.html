@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,21 +9,29 @@
     <title>Stable Diffusion Application on ngrok and Flask</title>
 </head>
 <body>
-  <h1>Stable Diffusion Application on ngrok and Flask</h1>
+    <h1>Stable Diffusion Application on ngrok and Flask</h1>
     <p>Generate images with stable diffusion as test. Enter your prompt below and hit "Create" to generate an image (wait till image is generated for few moments).</p>
-    	
+
     <form action="\submit-prompt" method="post" id="submission-form">
         <ul>
             <li>
-              <label for="prompt">User Prompt:</label>
-              <input type="text" id="prompt" name="prompt-input" />
+                <label for="prompt">User Prompt:</label>
+                <input type="text" id="prompt" name="prompt-input" />
             </li>
             <li class="button">
                 <button type="submit">Create Image</button>
             </li>
-          </ul>
+        </ul>
     </form>
-    <img src="{{ generated_image|default("https://images.squarespace-cdn.com/content/v1/6213c340453c3f502425776e/0715034d-4044-4c55-9131-e4bfd6dd20ca/2_4x.png?format=512w", true) }}" class="mainImg" alt="Generated Image">
+
+    <!-- Image display area -->
+    {% if generated_image %}
+        <div id="image-display">
+            <img src="{{ generated_image }}" alt="Generated Image" />
+            <a href="{{ generated_image }}" download="generated_image.png">
+                <button>Download Image</button>
+            </a>
+        </div>
+    {% endif %}
 </body>
 </html>
-
