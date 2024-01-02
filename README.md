@@ -51,7 +51,23 @@ Also the output from the code is shown below
 
 Try with different prompts..........
 
-happy image generation
+**Happy image generation**
+
+
+
+# Packages
+
+* torch>=1.4
+* diffusers==0.10.2
+* transformers
+* scipy
+* ftfy
+* accelerate
+* pyngrok==4.1.1
+* flask_ngrok
+
+
+
 
 
 References
