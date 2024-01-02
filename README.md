@@ -24,8 +24,11 @@ Example app that demonstrates how to run a Flask app with a free GPU using Googl
 
 ![Screenshot 2024-01-02 195908](https://github.com/ParthaPRay/Flask-Stable-Diffusion-Model-ngrok/assets/1689639/48e72051-ce34-42f6-b5c1-85e6ec87554f)
 
+Click on **visit site**
 
-User prompt: Ashoka the great the Indian king
+Then:
+
+**User prompt:** Ashoka the great the Indian king
 
 The output is a as below:
 
