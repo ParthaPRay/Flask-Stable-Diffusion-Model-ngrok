@@ -39,10 +39,19 @@ Then:
 
 The output is a as below:
 
-![Screenshot 2024-01-02 200013](https://github.com/ParthaPRay/Flask-Stable-Diffusion-Model-ngrok/assets/1689639/5a8525df-e16f-49db-b670-32b942439dc6)
+![Screenshot 2024-01-02 210520](https://github.com/ParthaPRay/Flask-Stable-Diffusion-Model-ngrok/assets/1689639/1b202d9e-c2e5-4672-adb0-a8e91aa9c418)
+
+and click on Download button to download the image.
 
 
-Try with different prompts
+Also the output from the code is shown below
+
+![Screenshot 2024-01-02 210620](https://github.com/ParthaPRay/Flask-Stable-Diffusion-Model-ngrok/assets/1689639/068eb72f-bbc0-48e8-bfbf-45c48469827d)
+
+
+Try with different prompts..........
+
+happy image generation
 
 
 References
