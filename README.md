@@ -42,6 +42,9 @@ The output is a as below:
 ![Screenshot 2024-01-02 200013](https://github.com/ParthaPRay/Flask-Stable-Diffusion-Model-ngrok/assets/1689639/5a8525df-e16f-49db-b670-32b942439dc6)
 
 
+Try with different prompts
+
+
 References
 
 1. free stable diffusion app with a gpu backend](https://www.assemblyai.com/blog/build-a-free-stable-diffusion-app-with-a-gpu-backend/
